@@ -1,0 +1,18 @@
+DjangoSessionGuard 0.1.0
+New implementation and documentation: bitfish886, with Codex AI assistance.
+Do not attribute the upstream implementations to the applicant.
+
+Historical conceptual source: django-secure, Carl Meyer and contributors,
+commit 55fb285945bbfb8af7ef4a847f4dac7d18ffe08f.
+Its complete BSD-3-Clause license is in licenses/django-secure-BSD-3-Clause.txt.
+That archived package was merged into Django 1.8 and does not establish
+current Django behavior. Its source is not imported or executed by this tool.
+
+Modern behavioral reference: Django 5.2.17, Django Software Foundation and
+individual contributors, commit e802ada38b3ecf345915163bb6d7f008be411664.
+The complete BSD-3-Clause license is in licenses/Django-BSD-3-Clause.txt.
+Selected source review and official documentation references are recorded
+in evidence/profile-gate.json. No Django source module is vendored at runtime.
+
+Application admission, ownership, applicant identity, deployment security,
+and whole-upstream equivalence remain OPEN.

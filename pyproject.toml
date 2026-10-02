@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-session-guard"
+version = "0.1.0"
+description = "Bounded offline static Django 5.2 session and CSRF settings review"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT AND BSD-3-Clause"
+license-files = ["LICENSE", "licenses/*.txt", "NOTICE"]
+authors = [{name = "bitfish886, with Codex AI assistance"}]
+dependencies = []
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Security"]
+
+[project.scripts]
+django-session-guard = "django_session_guard.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+django_session_guard = ["*.py"]

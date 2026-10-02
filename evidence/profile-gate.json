@@ -1,0 +1,244 @@
+{
+  "gate": "PASS before runtime implementation",
+  "profile": "Django 5.2 LTS; caller asserts 5.2; other profiles unsupported",
+  "fixed_modern_commit": "e802ada38b3ecf345915163bb6d7f008be411664",
+  "tag": "5.2.17",
+  "modern_repository": "https://github.com/django/django",
+  "reviewed_modern": [
+    {
+      "file": "django/core/checks/security/sessions.py",
+      "sha256": "4326fddc225e4013392cb861aeaa2be0a409476b52a459254bea7b5a5b577077",
+      "bytes": 2554,
+      "lines": 99,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "django/core/checks/security/csrf.py",
+      "sha256": "208528519c1759a13f8cf6f15cca8ecec24b18530e8ad689803d52052e126c2f",
+      "bytes": 2074,
+      "lines": 66,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "django/contrib/sessions/middleware.py",
+      "sha256": "6d9f1882e11d2e6e37f04e4b793b98f67707d897544ec46736355dcf8d838e77",
+      "bytes": 3755,
+      "lines": 82,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "django/middleware/csrf.py",
+      "sha256": "2b3d6c8c4ea069dddd2d788acf6f69ece433bae4e58665cdf92b93e85f150963",
+      "bytes": 19489,
+      "lines": 483,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "django/contrib/auth/middleware.py",
+      "sha256": "c2759d7855d4d8c036d7a8058762882564a9f1e7b112e24bc7b299969ae0c806",
+      "bytes": 11954,
+      "lines": 291,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "django/contrib/sessions/apps.py",
+      "sha256": "e5620ca9adf29aa12f60c9c51dedee59907c5d28a3505fcd4a06a8ad10f9d0b8",
+      "bytes": 194,
+      "lines": 7,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "django/contrib/sessions/backends/db.py",
+      "sha256": "aa8160f788eed3f2adb0f52014288a02fc5b30e5dcd5874601f8e4b67d349f20",
+      "bytes": 6907,
+      "lines": 198,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "django/contrib/sessions/backends/cached_db.py",
+      "sha256": "9b7e3c86060bafeae5efad13f98c66d8526643abdb23e9d9daf8b94212326c22",
+      "bytes": 4148,
+      "lines": 135,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "b846415d1b514e9c1dff14a22deb906d794bc546ca6129f950a18cd091e2a669",
+      "bytes": 1552,
+      "lines": 27,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "django/conf/global_settings.py",
+      "sha256": "a5770312aff8a67954d5fd308d2a3fab26736e522e9430bb52b36666220fb98d",
+      "bytes": 23068,
+      "lines": 670,
+      "review_scope": {
+        "line_ranges": [
+          [
+            210,
+            216
+          ],
+          [
+            469,
+            510
+          ],
+          [
+            565,
+            582
+          ]
+        ]
+      }
+    },
+    {
+      "file": "django/http/response.py",
+      "sha256": "e3cf67a8060fc67048ba4df8b45ea98cab4f3fe6302335c8e23a9156103687bf",
+      "bytes": 26282,
+      "lines": 763,
+      "review_scope": {
+        "line_ranges": [
+          [
+            218,
+            283
+          ]
+        ]
+      }
+    }
+  ],
+  "legacy_commit": "55fb285945bbfb8af7ef4a847f4dac7d18ffe08f",
+  "reviewed_legacy": [
+    {
+      "file": "djangosecure/check/sessions.py",
+      "sha256": "2c4e2ff7e2f3e015c1a7244a812d8286656e1ba52f42b5140a19e10d2a933b98",
+      "bytes": 2614,
+      "lines": 72,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "djangosecure/check/csrf.py",
+      "sha256": "4a01ff3848e45070176da4044a2cb5dbbed43271d1bb4c384d99421dd5d2ea32",
+      "bytes": 753,
+      "lines": 22,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "djangosecure/check/run.py",
+      "sha256": "9186114d11c81e286a064a66a33b13da027563a5d134eacdf8541264c9dec923",
+      "bytes": 382,
+      "lines": 20,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "djangosecure/check/util.py",
+      "sha256": "f0ef4a7ae036cb8deaa844de0420fcf5eddaebe874ea86533d5e9528c6faf04f",
+      "bytes": 300,
+      "lines": 13,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "djangosecure/check/__init__.py",
+      "sha256": "14c170e12a3a3413dac63c7a0ea42c218f493613b6d782b2f54a66ac40a234f1",
+      "bytes": 39,
+      "lines": 1,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "djangosecure/check/djangosecure.py",
+      "sha256": "9284fee070317d0b0f7c104a00f8ee70e9e897b0a265efa65a0dfc15eba868c5",
+      "bytes": 4217,
+      "lines": 125,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "djangosecure/management/commands/checksecure.py",
+      "sha256": "2b9d696b75dd80103c9ef5392a3ab0e5cd83b716f9f52659e2bc9ccf429774a8",
+      "bytes": 1449,
+      "lines": 48,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "djangosecure/middleware.py",
+      "sha256": "9512c2d3780a589fa57d20c6a32612ba9c145ed339cb533cba4eeb9b7b13d59f",
+      "bytes": 2422,
+      "lines": 63,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "djangosecure/conf.py",
+      "sha256": "e0d6853869512aac25e35e7663a94fde6da5225523af8a4b416db1b7f1c619f6",
+      "bytes": 1513,
+      "lines": 43,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "djangosecure/__init__.py",
+      "sha256": "6372d27d18a84a5db1721ef4a6afd42e5bf21025f212d37792b55a59e1b26b19",
+      "bytes": 22,
+      "lines": 1,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "AUTHORS.rst",
+      "sha256": "4eff9b98b6ed59ae73968c1aa00491856dcf3ec286e2c6826ce22ede08d15d6e",
+      "bytes": 169,
+      "lines": 7,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "LICENSE.txt",
+      "sha256": "49b869ed663d0b70458799c688610df3ebedea57850a88b751c1fc33844fa870",
+      "bytes": 1532,
+      "lines": 28,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "README.rst",
+      "sha256": "6f1328a6849f461a4ecaa69a3d6c009147361bbb9fb896afbdfc716d9c16d67e",
+      "bytes": 3456,
+      "lines": 101,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "setup.py",
+      "sha256": "1e0c2dadb9b3904340e166cfcd1bcfade7f9c0db377069cd7ebceaba734d00b7",
+      "bytes": 1610,
+      "lines": 47,
+      "review_scope": "entire file"
+    }
+  ],
+  "official_docs": [
+    "https://www.djangoproject.com/download/",
+    "https://docs.djangoproject.com/en/5.2/ref/settings/",
+    "https://docs.djangoproject.com/en/5.2/ref/middleware/#middleware-ordering",
+    "https://docs.djangoproject.com/en/5.2/topics/http/sessions/",
+    "https://docs.djangoproject.com/en/5.2/howto/csrf/#acquiring-the-token-if-csrf-use-sessions-or-csrf-cookie-httponly-is-true",
+    "https://docs.djangoproject.com/en/5.2/ref/checks/#security"
+  ],
+  "contract": {
+    "modern_deploy_checks": "Session W010-W015 and CSRF W003/W016 compared; no invocation/import of check modules",
+    "session_defaults": {
+      "SESSION_COOKIE_SECURE": false,
+      "SESSION_COOKIE_HTTPONLY": true,
+      "SESSION_COOKIE_SAMESITE": "Lax",
+      "SESSION_ENGINE": "django.contrib.sessions.backends.db"
+    },
+    "csrf_defaults": {
+      "CSRF_COOKIE_SECURE": false,
+      "CSRF_COOKIE_HTTPONLY": false,
+      "CSRF_COOKIE_SAMESITE": "Lax",
+      "CSRF_USE_SESSIONS": false
+    },
+    "middleware_dependencies": [
+      "Session before Authentication",
+      "Authentication before LoginRequired/RemoteUser/PersistentRemoteUser",
+      "CSRF before RemoteUser/PersistentRemoteUser",
+      "When CSRF_USE_SESSIONS, Session before CSRF and CommonMiddleware"
+    ],
+    "same_site": "HttpResponse.set_cookie validates case-insensitive lax/none/strict only when truthy; Python False/None/empty omit attribute and remain OPEN; string None is cross-site and OPEN intent",
+    "csrf_httponly": "False is supported default, not an insecurity verdict; True requires front-end DOM token integration, OPEN",
+    "scope_exclusions": [
+      "No X-XSS-Protection, secrets or response-header policies",
+      "No imports/decorators/view inspection, custom component loading or actual deployment guarantee"
+    ]
+  }
+}

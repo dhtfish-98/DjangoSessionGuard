@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "reviewer": "Codex implementation agent; parent independent review remains separate",
+  "new_source_review": "all runtime, tests, dependencies contract, packaging, CI, docs, license and notice files read in full",
+  "not_claimed": [
+    "whole upstream code",
+    "whole Django implementation",
+    "whole Python/stdlib source",
+    "whole build tools and vendored code",
+    "remote CI or CVP admission"
+  ],
+  "files": [
+    {
+      "file": ".github/workflows/ci.yml",
+      "sha256": "9b900f6716641c72c1c4b40a1006cfc5ac2a6907abea8f9b7ba394fe3a610858",
+      "bytes": 688,
+      "lines": 21,
+      "review_scope": "entire file"
+    },
+    {
+      "file": ".gitignore",
+      "sha256": "bb5832ba165615ffd69f59af6f9c5a14e4fee68198cbff929849cba2b3479291",
+      "bytes": 70,
+      "lines": 7,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "DEFENSIVE_SCOPE.md",
+      "sha256": "61ed89dc419654adb1a45ef07f00b309946c96e8a4a8c6626b87e573fd8575e3",
+      "bytes": 3082,
+      "lines": 48,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "cf465b6937308e39a02b4dc81ae1f6ab051e392d5c74be9c1064a5d9117673dc",
+      "bytes": 1067,
+      "lines": 21,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "MANIFEST.in",
+      "sha256": "5e7b5166b43a43e78038993958909f4f252b54321c91ad41aa9c0abdc622eb1f",
+      "bytes": 252,
+      "lines": 5,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "NOTICE",
+      "sha256": "8f2037da6ad1b573351a2b94ace342690d6167d1d7de46312aa2bf5998b1ed2e",
+      "bytes": 1017,
+      "lines": 18,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "ORIGIN.md",
+      "sha256": "d9f8b0cd4fccfac2aab971ddc30cf05b99760ea6ba7ec4fa7700a1262b5203fb",
+      "bytes": 2806,
+      "lines": 43,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "README.md",
+      "sha256": "bb9b65dadbd4ab13636c406b9cb55342d08cc510e63a6734e7acb9f7ed619066",
+      "bytes": 6685,
+      "lines": 109,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "VALIDATION.md",
+      "sha256": "90256ca74bcb243a6d0830b1f7c0094a02def135e63470e73c0341e16503be64",
+      "bytes": 2119,
+      "lines": 33,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "evidence/profile-gate.json",
+      "sha256": "ca15d75a19de7f79c54a2d410aeb7086d4d3e9c0b5ac2a3a562c7dfaf0b86f74",
+      "bytes": 7944,
+      "lines": 244,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "licenses/Django-BSD-3-Clause.txt",
+      "sha256": "b846415d1b514e9c1dff14a22deb906d794bc546ca6129f950a18cd091e2a669",
+      "bytes": 1552,
+      "lines": 27,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "licenses/django-secure-BSD-3-Clause.txt",
+      "sha256": "49b869ed663d0b70458799c688610df3ebedea57850a88b751c1fc33844fa870",
+      "bytes": 1532,
+      "lines": 28,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "pyproject.toml",
+      "sha256": "1be80fee1dd4c6d29a577204b9e52006d5cdfc098404cdfeedd0f0eae089b726",
+      "bytes": 725,
+      "lines": 24,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "requirements-build.txt",
+      "sha256": "206d502f592f43b6cb1a0ec971e5e4e38be6d186550c3958ee3d0fc5632c445b",
+      "bytes": 85,
+      "lines": 5,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "src/django_session_guard/__init__.py",
+      "sha256": "d0e5f4bb4f940107e56898a02bbada19899e47f71f0235d3905ec3df5c867586",
+      "bytes": 206,
+      "lines": 5,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "src/django_session_guard/__main__.py",
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+      "bytes": 47,
+      "lines": 2,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "src/django_session_guard/bindings.py",
+      "sha256": "4a706ad6e8fddf4d47be7612d18f52a2b19590cd07bfa01fa9dc9ed108d34212",
+      "bytes": 10426,
+      "lines": 206,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "src/django_session_guard/cli.py",
+      "sha256": "862bfe46c7165c658efffdc2a32a84ce1e5ac10af7f67d24a85ba0e9492ebc3a",
+      "bytes": 952,
+      "lines": 18,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "src/django_session_guard/contracts.py",
+      "sha256": "54a41ef844b07986a3f48aec340e24368297b5518172e043a1e48042f52e4c97",
+      "bytes": 2965,
+      "lines": 61,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "src/django_session_guard/input.py",
+      "sha256": "7315ffb6b247b2384d8e355421788daf83bdc967f9eb87491b837c4e85276009",
+      "bytes": 7883,
+      "lines": 176,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "src/django_session_guard/policy.py",
+      "sha256": "f19ce0772f661257f6333b7e6011fef1f749b93ef753f8a9b4be08c693dc1613",
+      "bytes": 7494,
+      "lines": 137,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "src/django_session_guard/review.py",
+      "sha256": "edee36e4585ae9735e3d071bf1e0c77266d7e9f1f456d11b398c83040b4d7745",
+      "bytes": 2775,
+      "lines": 52,
+      "review_scope": "entire file"
+    },
+    {
+      "file": "tests/test_review.py",
+      "sha256": "1a8cf6a8c40cb94b402d744714988da0b7b6432e4d062c1e63f789cedf03167d",
+      "bytes": 28624,
+      "lines": 412,
+      "review_scope": "entire file"
+    }
+  ],
+  "runtime_dependencies": [],
+  "build_dependencies": "requirements-build.txt exact versions; wheel metadata/top-level licenses fully read; nested vendored licenses hashed only, entire tools unreviewed",
+  "supplemental_selected_stdlib_source": "Python 3.14.6 tokenize.detect_encoding function read completely; not entire tokenize module",
+  "independent_review_fixes": [
+    "whole bounded AST semantic compile gate, generated code discarded",
+    "warnings captured as fixed OPEN code and numeric line; no source snippets emitted",
+    "value-sensitive unknown operator, truth and iteration callback barriers",
+    "snapshot identity, regular after-read type and exact read-length checks",
+    "effect epoch invalidates entire Assign/AugAssign expression after nested barrier; cached aliases cannot be reintroduced"
+  ]
+}
