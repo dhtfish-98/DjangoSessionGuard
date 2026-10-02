@@ -68,9 +68,9 @@
     },
     {
       "file": "VALIDATION.md",
-      "sha256": "90256ca74bcb243a6d0830b1f7c0094a02def135e63470e73c0341e16503be64",
-      "bytes": 2119,
-      "lines": 33,
+      "sha256": "0ed054bc99d81b8afe3b69b5a8e679a8c5d0ace57f7bd20dbe2e7c2ec81eb847",
+      "bytes": 2426,
+      "lines": 38,
       "review_scope": "entire file"
     },
     {
@@ -166,9 +166,9 @@
     },
     {
       "file": "tests/test_review.py",
-      "sha256": "1a8cf6a8c40cb94b402d744714988da0b7b6432e4d062c1e63f789cedf03167d",
-      "bytes": 28624,
-      "lines": 412,
+      "sha256": "ee912db02dcff19b619e96c648f0b01677970bd25164e3333d54f1298149f10c",
+      "bytes": 28971,
+      "lines": 417,
       "review_scope": "entire file"
     }
   ],
@@ -181,5 +181,6 @@
     "value-sensitive unknown operator, truth and iteration callback barriers",
     "snapshot identity, regular after-read type and exact read-length checks",
     "effect epoch invalidates entire Assign/AugAssign expression after nested barrier; cached aliases cannot be reintroduced"
-  ]
+  ],
+  "parent_final_test_delta": "Preserve native 3.11/3.14 open-bracket versus EOF diagnostic position, with separate exact-line invalid-statement control; runtime unchanged."
 }

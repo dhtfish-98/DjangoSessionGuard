@@ -31,3 +31,8 @@ The CI workflow has been read and declares Python 3.11/3.14 checks against the
 built wheel. A local passing run does not prove remote CI execution; remote
 publication and exact-commit CI remain OPEN until independently confirmed.
 CVP eligibility, ownership and applicant identity also remain OPEN.
+
+Incomplete-bracket diagnostics preserve the native interpreter position: tested
+CPython versions can point at the open bracket or at EOF. A separate stable
+invalid-statement case checks exact source line 2. This version difference does
+not change the static rule projection or normalize a parser position.

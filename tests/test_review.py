@@ -214,8 +214,13 @@ class ReviewTests(unittest.TestCase):
         source = "# coding: UTF8\n" + "\n".join(k + "=" + repr(v) for k, v in SAFE.items())
         self.assertEqual(self.run_source(source)["status"], "PASS")
     def test_syntax_errors_keep_numeric_locations(self):
-        report = self.run_source("X=1\nif (\n")
+        report = self.run_source("X=1\nif True print('fixed')\n")
         self.assertEqual(report["error"]["location"]["line"], 2)
+        self.assertEqual(report["error"]["code"], "python_syntax_error")
+        report = self.run_source("X=1\nif (\n")
+        # CPython tokenizers report either the open bracket or EOF.
+        self.assertIn(report["error"]["location"]["line"], (2, 3))
+        self.assertEqual(report["error"]["code"], "python_syntax_error")
         report = self.run_source('{"x":"中文",}', input_format="json")
         self.assertEqual(report["error"]["location"]["line"], 1)
         # CPython versions point to the comma or the following closing brace.
