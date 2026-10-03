@@ -15,8 +15,9 @@ def read_local(path, limits):
     name = os.fspath(path)
     if not isinstance(name, str) or not name or name == "-" or "://" in name or "\x00" in name:
         raise ReviewError("local_path_required")
-    if not hasattr(os, "O_NOFOLLOW"):
-        raise ReviewError("nofollow_unavailable")
+    if any(type(getattr(os, flag, None)) is not int or getattr(os, flag, 0) <= 0
+           for flag in ("O_NOFOLLOW", "O_NONBLOCK")):
+        raise ReviewError("safe_open_flags_unavailable")
     try:
         fd = os.open(name, os.O_RDONLY | os.O_NOFOLLOW | os.O_NONBLOCK)
         with os.fdopen(fd, "rb") as stream:

@@ -268,6 +268,33 @@ class ReviewTests(unittest.TestCase):
         self.path.write_text("\n".join(k + "=" + repr(v) for k, v in SAFE.items()))
         parent = self.root / "parent"; parent.symlink_to(self.root, target_is_directory=True)
         self.assertEqual(review_settings(parent / self.path.name, django_version="5.2")["status"], "PASS")
+    def test_missing_safe_open_flags_are_controlled_open(self):
+        from django_session_guard.cli import main
+        from contextlib import redirect_stdout
+        self.path.write_text("SESSION_COOKIE_SECURE = True\n")
+        link = self.root / "missing-flags-link"
+        link.symlink_to(self.path)
+        for flag in ("O_NOFOLLOW", "O_NONBLOCK"):
+            for mode in ("missing", "zero", "none", "bool", "text", "float"):
+                with self.subTest(flag=flag, mode=mode):
+                    old = getattr(os, flag)
+                    try:
+                        if mode == "missing":
+                            delattr(os, flag)
+                        else:
+                            setattr(os, flag, {"zero": 0, "none": None, "bool": True, "text": "1", "float": 1.0}[mode])
+                        with patch("django_session_guard.input.os.open", side_effect=AssertionError("must not open")):
+                            for path in (self.path, link):
+                                report = review_settings(path, django_version="5.2")
+                                self.assertEqual(report["status"], "OPEN")
+                                self.assertEqual(report["error"]["code"], "safe_open_flags_unavailable")
+                            output = StringIO()
+                            with redirect_stdout(output):
+                                self.assertEqual(main([str(self.path), "--django-version", "5.2"]), 2)
+                            self.assertEqual(json.loads(output.getvalue())["status"], "OPEN")
+                    finally:
+                        setattr(os, flag, old)
+
     def test_resource_budgets(self):
         cases = [("X='123456'", Limits(file_bytes=4)), ("X='123456'", Limits(token_bytes=4)),
             ("A=1\nB=2", Limits(tokens=2)), ("A=[[[1]]]", Limits(depth=2)),

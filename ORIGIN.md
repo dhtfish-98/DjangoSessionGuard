@@ -19,7 +19,7 @@ middleware, session, CSRF and deploy-check documentation are in the gate.
 The official download page identifies this branch as supported through April
 2028; that observation is contextual and not a promise of later availability.
 
-New MIT implementation: bitfish886 with Codex AI assistance. The new bounded
+New MIT implementation author and maintainer: dhtfish98. The new bounded
 AST binder and mutable alias model, explicit version/static JSON contract,
 dependency engine, privacy-conscious location report, error budgets, CLI and
 regression tests are independent engineering contributions. The historical

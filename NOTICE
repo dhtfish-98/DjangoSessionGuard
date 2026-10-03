@@ -1,5 +1,5 @@
-DjangoSessionGuard 0.1.0
-New implementation and documentation: bitfish886, with Codex AI assistance.
+DjangoSessionGuard 0.1.1
+New implementation author and maintainer: dhtfish98.
 Do not attribute the upstream implementations to the applicant.
 
 Historical conceptual source: django-secure, Carl Meyer and contributors,

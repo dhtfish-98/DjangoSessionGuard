@@ -1,5 +1,7 @@
 # DjangoSessionGuard
 
+New implementation author and maintainer: dhtfish98.
+
 A read-only, offline review of a **caller-asserted Django 5.2** settings snapshot.
 It checks selected session/CSRF cookie policies and middleware dependencies
 without importing, executing, or evaluating the settings file. Django is not
@@ -107,3 +109,7 @@ The snapshot may remain in memory during review; values are never sent out.
 See [ORIGIN.md](ORIGIN.md), [DEFENSIVE_SCOPE.md](DEFENSIVE_SCOPE.md),
 [VALIDATION.md](VALIDATION.md) and [evidence/profile-gate.json](evidence/profile-gate.json)
 for attribution, exact reference scope and actual validation boundaries.
+
+File input requires positive `O_NOFOLLOW` and `O_NONBLOCK` OS flags. Missing
+capabilities return controlled OPEN before opening any file. POSIX behavior is
+verified on macOS; native Windows behavior is not verified.

@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "reviewer": "Codex implementation agent; parent independent review remains separate",
+  "reviewer": "Selected source review; separate parent review evidence remains separate",
   "new_source_review": "all runtime, tests, dependencies contract, packaging, CI, docs, license and notice files read in full",
   "not_claimed": [
     "whole upstream code",
