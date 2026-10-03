@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "project": "DjangoSessionGuard",
+  "version": "0.1.2",
+  "author": "dhtfish98",
+  "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "9b900f6716641c72c1c4b40a1006cfc5ac2a6907abea8f9b7ba394fe3a610858",
+      "bytes": 688
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "bb5832ba165615ffd69f59af6f9c5a14e4fee68198cbff929849cba2b3479291",
+      "bytes": 70
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "61ed89dc419654adb1a45ef07f00b309946c96e8a4a8c6626b87e573fd8575e3",
+      "bytes": 3082
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "de926d6c22d9e061af6158b0f23146ce036bfb2a562f2f406acec2dc4bd8b298",
+      "bytes": 1066
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "c3443c2ecf1ed8f664d0c093b8b1f2d1a588f8cd1a7a09ebdb0577eddfb083c5",
+      "bytes": 249
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "a3830f15a3d8a3e0e59a2935e40e787091d1a48deb9861367a39e8a522e7b48b",
+      "bytes": 629
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "d25a7b90c9d0e2529e473ddf8662eb4119749c87fa73cc1e9f01ffd3e8e41db3",
+      "bytes": 2939
+    },
+    {
+      "path": "README.md",
+      "sha256": "c2560a20ff2e4468c634d771113826964898260d8c3e649dfe9853d53709c7e6",
+      "bytes": 6956
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "96787849b9ab907266c3ea6622425c18a3e0f2b2cafb28119558dcc38109d351",
+      "bytes": 4938
+    },
+    {
+      "path": "evidence/profile-gate.json",
+      "sha256": "ca15d75a19de7f79c54a2d410aeb7086d4d3e9c0b5ac2a3a562c7dfaf0b86f74",
+      "bytes": 7944
+    },
+    {
+      "path": "evidence/reviewed-source.json",
+      "sha256": "4cab77792472af78d197de421ac5521dc8320079637ad59098bdd1976084b150",
+      "bytes": 6373
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "8a49609a8368034a7cda4611033e3f102576478c59799a949ba912317561b55c",
+      "bytes": 700
+    },
+    {
+      "path": "requirements-build.txt",
+      "sha256": "206d502f592f43b6cb1a0ec971e5e4e38be6d186550c3958ee3d0fc5632c445b",
+      "bytes": 85
+    },
+    {
+      "path": "src/django_session_guard/__init__.py",
+      "sha256": "b3c70ca74d4cc8d9a01a5016e5f60fb15903d539cccf5243ee41282cd4a2ee83",
+      "bytes": 206
+    },
+    {
+      "path": "src/django_session_guard/__main__.py",
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+      "bytes": 47
+    },
+    {
+      "path": "src/django_session_guard/bindings.py",
+      "sha256": "4a706ad6e8fddf4d47be7612d18f52a2b19590cd07bfa01fa9dc9ed108d34212",
+      "bytes": 10426
+    },
+    {
+      "path": "src/django_session_guard/cli.py",
+      "sha256": "ad1d52faa93fe38273b178acc114a621475b4743bc84d3b444fc844b852d7c81",
+      "bytes": 952
+    },
+    {
+      "path": "src/django_session_guard/contracts.py",
+      "sha256": "54a41ef844b07986a3f48aec340e24368297b5518172e043a1e48042f52e4c97",
+      "bytes": 2965
+    },
+    {
+      "path": "src/django_session_guard/input.py",
+      "sha256": "bc0b3d6ffe7eb19060bcfc2fc3909ac7829d02273da8fa035f9afcf0ad8854e8",
+      "bytes": 7987
+    },
+    {
+      "path": "src/django_session_guard/policy.py",
+      "sha256": "f19ce0772f661257f6333b7e6011fef1f749b93ef753f8a9b4be08c693dc1613",
+      "bytes": 7494
+    },
+    {
+      "path": "src/django_session_guard/review.py",
+      "sha256": "93525166efa181ad68f8a8eed4899c41d6842ad940dd487bcd99de671ec75ec3",
+      "bytes": 2775
+    },
+    {
+      "path": "tests/test_review.py",
+      "sha256": "33777d9fb61b04fc91720b25e3541f399c0cf2bdaaacf3e05a25b6a33d29d96a",
+      "bytes": 30597
+    }
+  ],
+  "license_cleanup": "Only approved reference-only copies removed; applicable data/code/terms and own LICENSE preserved."
+}

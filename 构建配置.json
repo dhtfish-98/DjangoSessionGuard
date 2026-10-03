@@ -1,0 +1,40 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "DjangoSessionGuard",
+  "author": "dhtfish98",
+  "kind": "python",
+  "base_public_commit": "a468e4db84a2bdebbf4d603fe3e44c795050c834",
+  "restored_inputs": [
+    {
+      "original": "DEFENSIVE_SCOPE.md",
+      "stored": "项目文档/DEFENSIVE_SCOPE.md",
+      "sha256": "61ed89dc419654adb1a45ef07f00b309946c96e8a4a8c6626b87e573fd8575e3"
+    },
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "de926d6c22d9e061af6158b0f23146ce036bfb2a562f2f406acec2dc4bd8b298"
+    },
+    {
+      "original": "NOTICE",
+      "stored": "项目文档/NOTICE",
+      "sha256": "a3830f15a3d8a3e0e59a2935e40e787091d1a48deb9861367a39e8a522e7b48b"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "d25a7b90c9d0e2529e473ddf8662eb4119749c87fa73cc1e9f01ffd3e8e41db3"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "c3af081b909e01fafb9967ee3e6e980bd7a949ff62cd5aab4073856de0cc72f3"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "96787849b9ab907266c3ea6622425c18a3e0f2b2cafb28119558dcc38109d351"
+    }
+  ],
+  "platform_entries": []
+}

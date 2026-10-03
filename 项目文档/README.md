@@ -1,3 +1,5 @@
+> 目录已整理：文档在「项目文档」，构建、缓存与暂存输入在「Build」。从仓库根目录运行 `python3 构建.py --build`；如需使用本文原有源码命令，先运行 `python3 构建.py --stage --ci`，再进入 `Build/源码`。暂存会恢复原输入路径。现有版本和历史验证记录按各自提交理解。
+
 # DjangoSessionGuard
 
 New implementation author and maintainer: dhtfish98.
@@ -106,8 +108,8 @@ string, depth 32, 512 sequence/object items, 1,024 bindings, 50,000 model steps,
 retain OPEN, location when known, and a known policy FAIL already discovered.
 The snapshot may remain in memory during review; values are never sent out.
 
-See [ORIGIN.md](ORIGIN.md), [DEFENSIVE_SCOPE.md](DEFENSIVE_SCOPE.md),
-[VALIDATION.md](VALIDATION.md) and [evidence/profile-gate.json](evidence/profile-gate.json)
+See [ORIGIN.md](<ORIGIN.md>), [DEFENSIVE_SCOPE.md](<DEFENSIVE_SCOPE.md>),
+[VALIDATION.md](<VALIDATION.md>) and [evidence/profile-gate.json](<../evidence/profile-gate.json>)
 for attribution, exact reference scope and actual validation boundaries.
 
 File input requires positive `O_NOFOLLOW` and `O_NONBLOCK` OS flags. Missing
