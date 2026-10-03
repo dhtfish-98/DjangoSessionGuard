@@ -9,7 +9,7 @@ def review_settings(path, *, django_version, input_format="python", limits=None)
     limits = Limits() if limits is None else limits
     if not isinstance(limits, Limits):
         raise TypeError("limits must be Limits or None")
-    report = {"schema_version": 1, "tool": "DjangoSessionGuard", "version": "0.1.1",
+    report = {"schema_version": 1, "tool": "DjangoSessionGuard", "version": "0.1.2",
               "profile": "Django-5.2", "status": "OPEN", "complete": False,
               "findings": [], "runtime_deployment": "OPEN", "cvp_eligibility": "OPEN"}
     try:

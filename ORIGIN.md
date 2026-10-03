@@ -25,7 +25,7 @@ dependency engine, privacy-conscious location report, error budgets, CLI and
 regression tests are independent engineering contributions. The historical
 checks run against imported Django settings; this tool never imports supplied
 settings or Django. No full upstream feature or deployment equivalence is
-claimed. Full upstream BSD licenses and copyright notices are preserved.
+claimed. No upstream implementation or test corpus is redistributed. The unused reference-only BSD license/copyright copies were removed; fixed source references remain without transferring upstream ownership.
 
 Comparison to modern deployment checks: W010-W015 inspect session Secure/
 HttpOnly with app/middleware conditions, W003 checks global CSRF middleware

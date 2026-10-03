@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "DjangoSessionGuard",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "dhtfish98",
   "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
   "files": [
@@ -27,18 +27,18 @@
     },
     {
       "path": "MANIFEST.in",
-      "sha256": "b7a497825c4ba8829f9200146619b3e6e60b7dde4b955a00722c7198e1c8a457",
-      "bytes": 282
+      "sha256": "c3443c2ecf1ed8f664d0c093b8b1f2d1a588f8cd1a7a09ebdb0577eddfb083c5",
+      "bytes": 249
     },
     {
       "path": "NOTICE",
-      "sha256": "bb174c3ffed10de2e01c309028c9c7cc5926709fedc3a5fe3e208db14ac4cda3",
-      "bytes": 994
+      "sha256": "a3830f15a3d8a3e0e59a2935e40e787091d1a48deb9861367a39e8a522e7b48b",
+      "bytes": 629
     },
     {
       "path": "ORIGIN.md",
-      "sha256": "0ad30f3ec5f8718393c8704a415e09b346181e1c63f56ebc4125a63f87f664e3",
-      "bytes": 2802
+      "sha256": "d25a7b90c9d0e2529e473ddf8662eb4119749c87fa73cc1e9f01ffd3e8e41db3",
+      "bytes": 2939
     },
     {
       "path": "README.md",
@@ -47,8 +47,8 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "bfebb88088893e003331cca9cdb4a2d0d33ca3530ab17028f7ca292fee2f829c",
-      "bytes": 3599
+      "sha256": "96787849b9ab907266c3ea6622425c18a3e0f2b2cafb28119558dcc38109d351",
+      "bytes": 4938
     },
     {
       "path": "evidence/profile-gate.json",
@@ -61,19 +61,9 @@
       "bytes": 6373
     },
     {
-      "path": "licenses/Django-BSD-3-Clause.txt",
-      "sha256": "b846415d1b514e9c1dff14a22deb906d794bc546ca6129f950a18cd091e2a669",
-      "bytes": 1552
-    },
-    {
-      "path": "licenses/django-secure-BSD-3-Clause.txt",
-      "sha256": "49b869ed663d0b70458799c688610df3ebedea57850a88b751c1fc33844fa870",
-      "bytes": 1532
-    },
-    {
       "path": "pyproject.toml",
-      "sha256": "50111a0610391e13e059224bdde04bf586d288faecec392d4d16184617fb05f2",
-      "bytes": 735
+      "sha256": "8a49609a8368034a7cda4611033e3f102576478c59799a949ba912317561b55c",
+      "bytes": 700
     },
     {
       "path": "requirements-build.txt",
@@ -82,7 +72,7 @@
     },
     {
       "path": "src/django_session_guard/__init__.py",
-      "sha256": "3772234085cccdaa03be5908bb3748cf4f8664c58cf26ccb51196ef8b4ecd121",
+      "sha256": "b3c70ca74d4cc8d9a01a5016e5f60fb15903d539cccf5243ee41282cd4a2ee83",
       "bytes": 206
     },
     {
@@ -97,7 +87,7 @@
     },
     {
       "path": "src/django_session_guard/cli.py",
-      "sha256": "9cca13a1baa7fb185c6ec20842a39243f343c4ae43d4882cd7f81f7dbf7a7ffa",
+      "sha256": "ad1d52faa93fe38273b178acc114a621475b4743bc84d3b444fc844b852d7c81",
       "bytes": 952
     },
     {
@@ -117,7 +107,7 @@
     },
     {
       "path": "src/django_session_guard/review.py",
-      "sha256": "68b25340f87ac5593f052cdf2f94d563622bafc1d0c801f3fdf0b414509b67a5",
+      "sha256": "93525166efa181ad68f8a8eed4899c41d6842ad940dd487bcd99de671ec75ec3",
       "bytes": 2775
     },
     {
@@ -125,5 +115,6 @@
       "sha256": "33777d9fb61b04fc91720b25e3541f399c0cf2bdaaacf3e05a25b6a33d29d96a",
       "bytes": 30597
     }
-  ]
+  ],
+  "license_cleanup": "Only approved reference-only copies removed; applicable data/code/terms and own LICENSE preserved."
 }

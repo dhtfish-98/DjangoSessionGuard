@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "django-session-guard"
-version = "0.1.1"
+version = "0.1.2"
 description = "Bounded offline static Django 5.2 session and CSRF settings review"
 readme = "README.md"
 requires-python = ">=3.11"
-license = "MIT AND BSD-3-Clause"
-license-files = ["LICENSE", "licenses/*.txt", "NOTICE"]
+license = "MIT"
+license-files = ["LICENSE", "NOTICE"]
 authors = [{name = "dhtfish98"}]
 maintainers = [{name = "dhtfish98"}]
 dependencies = []

@@ -1,18 +1,11 @@
-DjangoSessionGuard 0.1.1
-New implementation author and maintainer: dhtfish98.
-Do not attribute the upstream implementations to the applicant.
+DjangoSessionGuard 0.1.2
+New implementation author and maintainer: dhtfish98. New code is MIT.
 
-Historical conceptual source: django-secure, Carl Meyer and contributors,
-commit 55fb285945bbfb8af7ef4a847f4dac7d18ffe08f.
-Its complete BSD-3-Clause license is in licenses/django-secure-BSD-3-Clause.txt.
-That archived package was merged into Django 1.8 and does not establish
-current Django behavior. Its source is not imported or executed by this tool.
+Django 5.2 and the archived django-secure project are behavioral/source
+references, not bundled implementations or runtime dependencies. Fixed source
+links and selected review scope remain in ORIGIN.md and the profile gate.
+Unused reference-only BSD license/copyright copies were removed. No Django
+source, upstream test corpus or documentation excerpts are redistributed.
 
-Modern behavioral reference: Django 5.2.17, Django Software Foundation and
-individual contributors, commit e802ada38b3ecf345915163bb6d7f008be411664.
-The complete BSD-3-Clause license is in licenses/Django-BSD-3-Clause.txt.
-Selected source review and official documentation references are recorded
-in evidence/profile-gate.json. No Django source module is vendored at runtime.
-
-Application admission, ownership, applicant identity, deployment security,
-and whole-upstream equivalence remain OPEN.
+This attribution does not transfer upstream ownership, establish whole-upstream
+equivalence or prove application admission; those remain separate OPEN claims.
