@@ -109,7 +109,7 @@ retain OPEN, location when known, and a known policy FAIL already discovered.
 The snapshot may remain in memory during review; values are never sent out.
 
 See [ORIGIN.md](<ORIGIN.md>), [DEFENSIVE_SCOPE.md](<DEFENSIVE_SCOPE.md>),
-[VALIDATION.md](<VALIDATION.md>) and [evidence/profile-gate.json](<../evidence/profile-gate.json>)
+[VALIDATION.md](<VALIDATION.md>) and [evidence/profile-gate.json](<evidence/profile-gate.json>)
 for attribution, exact reference scope and actual validation boundaries.
 
 File input requires positive `O_NOFOLLOW` and `O_NONBLOCK` OS flags. Missing

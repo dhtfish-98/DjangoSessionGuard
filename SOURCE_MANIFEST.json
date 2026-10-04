@@ -17,16 +17,16 @@
     },
     {
       "path": "MANIFEST.in",
-      "sha256": "00d3dc2fafcb69e4fe990d1f03da75b83f0105b31589ed7ebd9f171da372ac33",
-      "bytes": 810
+      "sha256": "7dfc841a4bbfc16fa7f6878dcac6d647495c57dcb4d5338bfa92074bab1615e1",
+      "bytes": 823
     },
     {
-      "path": "evidence/profile-gate.json",
+      "path": "项目文档/evidence/profile-gate.json",
       "sha256": "ca15d75a19de7f79c54a2d410aeb7086d4d3e9c0b5ac2a3a562c7dfaf0b86f74",
       "bytes": 7944
     },
     {
-      "path": "evidence/reviewed-source.json",
+      "path": "项目文档/evidence/reviewed-source.json",
       "sha256": "4cab77792472af78d197de421ac5521dc8320079637ad59098bdd1976084b150",
       "bytes": 6373
     },
@@ -91,7 +91,7 @@
       "path": "构建.py"
     },
     {
-      "sha256": "ceec6f004649180222961d1d1d2fd0f9ffa6fd60324b79d1eed4789651a74bd0",
+      "sha256": "8714c07d4f1c3b7056960aad0adbb00233397dbbf2f73d68d2adaaa7484d1226",
       "bytes": 1273,
       "path": "构建配置.json"
     },
@@ -117,8 +117,8 @@
     },
     {
       "path": "项目文档/README.md",
-      "sha256": "c3af081b909e01fafb9967ee3e6e980bd7a949ff62cd5aab4073856de0cc72f3",
-      "bytes": 7322
+      "sha256": "974ac483d0a0b23a0afc5380fa6f237e45041df0054ae63481c7d72265b4f575",
+      "bytes": 7319
     },
     {
       "path": "项目文档/VALIDATION.md",
