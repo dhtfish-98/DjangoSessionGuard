@@ -18,7 +18,7 @@
     {
       "original": "NOTICE",
       "stored": "项目文档/NOTICE",
-      "sha256": "a3830f15a3d8a3e0e59a2935e40e787091d1a48deb9861367a39e8a522e7b48b"
+      "sha256": "b732a446d2818fb96800ab40504d87f82a97eb71f2aecf00fba311aca2c23939"
     },
     {
       "original": "ORIGIN.md",
@@ -33,7 +33,7 @@
     {
       "original": "VALIDATION.md",
       "stored": "项目文档/VALIDATION.md",
-      "sha256": "96787849b9ab907266c3ea6622425c18a3e0f2b2cafb28119558dcc38109d351"
+      "sha256": "0cf4ea9f462d8340d665fb07ec43f6e9347076c0fb9c029e9433bb64b533fc75"
     }
   ],
   "platform_entries": []

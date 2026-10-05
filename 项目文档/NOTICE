@@ -1,4 +1,4 @@
-DjangoSessionGuard 0.1.2
+DjangoSessionGuard 0.1.3
 New implementation author and maintainer: dhtfish98. New code is MIT.
 
 Django 5.2 and the archived django-secure project are behavioral/source
